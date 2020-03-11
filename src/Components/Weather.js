@@ -2,7 +2,7 @@ import React from "react";
 
 function Weather(props){
   return (
-    <div>
+    <div style={{fontSize:"12px"}}>
       {props.city && props.country && <p>Location: {props.city}, {props.country} </p>}
       {props.temperature && <p>Temperature: {props.temperature}</p>}
       {props.humidity && <p>Humidity: {props.humidity}</p>}
